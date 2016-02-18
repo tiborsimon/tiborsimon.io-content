@@ -118,6 +118,18 @@
     },
     {
         "category": " ",
+        "date": "2015-1-15",
+        "summary": "At the university me and my partner have faced a midterm project that contained a very interesting problem. We had to write an algorithm that drives a small electric car on it\u2019s guided track.",
+        "tags": [
+            " #embedded",
+            " #dsp",
+            " #accelerometer"
+        ],
+        "title": "SlotCar Race",
+        "url": "http://tiborsimon.io/embedded/slotcar-race/"
+    },
+    {
+        "category": " ",
         "date": "2015-8-31",
         "summary": "\r\n    \r\n        \r\n            \r\n                \r\n                    \r\n                        PR000019\r\n                    \r\n                    \r\n                        Corresponding articles\r\n                        \r\n                        \r\n                        \r\n                        \r\n                    \r\n                    \r\n                        \r\n                            Contents\r\n                        \r\n                    \r\n                    \r\n                        \r\n<!-- =======================================================================================================================\r\n   D O C   S T A R T\r\n======================================================================================================================== -->  \r\nLatest revision\r\n\r\nDuring the last semester I had a subject that required to create a java program. I decided to write a small game similar to Minigore. The game is written in java with LWJGL and Slick2D game ...",
         "tags": [
