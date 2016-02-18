@@ -14,17 +14,6 @@
     },
     {
         "category": " ",
-        "date": "2015-11-12",
-        "summary": "How to distinguish keys that are the same in the first characters? This article will show you a possible way.",
-        "tags": [
-            " #parameter",
-            " #equation"
-        ],
-        "title": "Handling ambiguous keys",
-        "url": "http://tiborsimon.io/programming/handling-ambiguous-keys/"
-    },
-    {
-        "category": " ",
         "date": "2015-11-11",
         "summary": "In the previous article we have discussed the 5 ways you can generate a sinusoid signal. In this article we are going to develop a method that tries to generate a sinusoid signal with a given parameter set.",
         "tags": [

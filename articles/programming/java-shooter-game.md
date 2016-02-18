@@ -10,11 +10,9 @@ Slug: projects/java-shooter-game
 Summary: During the last semester I had a subject that required to create a java program. I decided to write a small game similar to Minigore. The game is written in java with LWJGL and Slick2D game libraries.
 
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/dUKqIYJZlOk" frameborder="0" allowfullscreen></iframe>
+<iframe class="video" width="640" height="360" src="https://www.youtube.com/embed/dUKqIYJZlOk" frameborder="0" allowfullscreen></iframe>
 
 It uses some open source stuff, like the explosion animation and the music for the promo video. The game is open source, so you can go to GitHub to see how the game functionalities were implemented.
-
-{% include repo_and_release.html %}
 
 If the game won’t open by clicking on it (like on OSX Moutain Lion), you have to open it from command line. If the command line returns an error like pixel format not accelerated, you should check out these sites for the solution.
 
@@ -32,9 +30,7 @@ In the Main Menu you have 4 options but in reality 3 of them is working right no
 - Scores – currently not working
 - Exit – it exits the game
 
-<figure>
-    <img src="/images/java-shooter/javashooter-1.png" alt="Java Shooter Game: main menu" width="550" />
-</figure>
+<img src="/images/articles/java-shooter/javashooter-1.png" alt="Java Shooter Game: main menu" width="550" />
 
 
 # Game menu
@@ -45,9 +41,9 @@ In the New Game Menu you can start Easy, Normal and Expert game.
 - Normal – faster enemies with faster spawning time + auto aiming
 - Expert – slow enemies with slow spawning time + manual aiming (very hard!)
 
-<figure>
-    <img src="/images/java-shooter/javashooter-2.png" alt="Java Shooter Game: game menu" width="550" />
-</figure>
+
+<img src="/images/articles/java-shooter/javashooter-2.png" alt="Java Shooter Game: game menu" width="550" />
+
 
 # Player menu
 
@@ -56,9 +52,7 @@ In the Player Menu you can view the stats of the current player, export your pla
 - Export – it exports the current player stats to transfer them another computer.
 - New – it goes to the New Player Menu
 
-<figure>
-    <img src="/images/java-shooter/javashooter-3.png" alt="Java Shooter Game: player menu" width="550" />
-</figure>
+<img src="/images/articles/java-shooter/javashooter-3.png" alt="Java Shooter Game: player menu" width="550" />
 
 # Controlling the game
 
@@ -72,11 +66,13 @@ I have built in the possibility to mack around with the main game parameters. To
 
 ## Hackable parameters
 
-- fullscreen [true/false] – the game can load in window or full screen mode.
-- overclock [fps in int] – sets the target fps. The actual fps is dependent on your machine.
-- showFPS [true/false] – turns the fps counter on or off
-- explosionPoolLimit [pool limit in int] – it is expensive to allocate many animation frames in real time, therefore the game allocates the explosion animation frames before the game starts. You can set the max number of animations preloaded to the animation pool. For high FPS rate it is recommended to set this value greater than 10. The game will load slower but it wont crash due to empty animation pool.
-- sparkPoolLimit [pool limit in int] – same as the explosionPoolLimit parameter. If you set high FPS rate set this value higher than 10.
+| Property name      | Unit                | Default value | Description |
+|:-------------------|:--------------------|:--------------|:------------|
+| `fullscreen`         | [true/false]        | false         | the game can load in window or full screen mode                                                                                                                                                                                                                                                                                                                              |
+| `overclock`          | [fps in int]        | 60            | sets the target fps. The actual fps is dependent on your machine                                                                                                                                                                                                                                                                                                             |
+| `showFPS`            | [true/false]        | false         | turns the fps counter on or off                                                                                                                                                                                                                                                                                                                                              |
+| `explosionPoolLimit` | [pool limit in int] | 10            | it is expensive to allocate many animation frames in real time, therefore the game allocates the explosion animation frames before the game starts. You can set the max number of animations preloaded to the animation pool. For high FPS rate it is recommended to set this value greater than 10. The game will load slower but it wont crash due to empty animation pool |
+| `sparkPoolLimit`     | [pool limit in int] | 10            | same as the explosionPoolLimit parameter. If you set high FPS rate set this value higher than 10 |
 
 The syntax is very simple. First you type the keyword you want to modify (not case sensitive), space, then the value. This is a modifying block. You can use more blocks at once separated them with spaces. The default settings are the following:
 
@@ -95,27 +91,9 @@ overclock 75 fullscreen true showfPS true
 
 Example video about how to overclock the game a bit.
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/L5NhA_ajQ_w" frameborder="0" allowfullscreen></iframe>
+<iframe class="video" width="640" height="360" src="https://www.youtube.com/embed/L5NhA_ajQ_w" frameborder="0" allowfullscreen></iframe>
 
 
 # Summary
 
 The developed program isn't a full featured game but a skeleton, which you can develop further.
-
-{% include repo_and_release.html %}
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=dUKqIYJZlOk
-" target="_blank"><img src="http://img.youtube.com/vi/dUKqIYJZlOk/0.jpg"
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
-
-[![JavaShooter Game youtube demonstration](http://img.youtube.com/vi/L5NhA_ajQ_w/0.jpg)](http://www.youtube.com/watch?v=L5NhA_ajQ_w)
-
-
-| Property name      | Unit                | Default value | Description |
-|:-------------------|:--------------------|:--------------|:------------|
-| `fullscreen`         | [true/false]        | false         | the game can load in window or full screen mode                                                                                                                                                                                                                                                                                                                              |
-| `overclock`          | [fps in int]        | 60            | sets the target fps. The actual fps is dependent on your machine                                                                                                                                                                                                                                                                                                             |
-| `showFPS`            | [true/false]        | false         | turns the fps counter on or off                                                                                                                                                                                                                                                                                                                                              |
-| `explosionPoolLimit` | [pool limit in int] | 10            | it is expensive to allocate many animation frames in real time, therefore the game allocates the explosion animation frames before the game starts. You can set the max number of animations preloaded to the animation pool. For high FPS rate it is recommended to set this value greater than 10. The game will load slower but it wont crash due to empty animation pool |
-| `sparkPoolLimit`     | [pool limit in int] | 10            | same as the explosionPoolLimit parameter. If you set high FPS rate set this value higher than 10       

@@ -26,21 +26,26 @@ Let's say you want to get __10 samples per seconds__ _(fs=10Hz)_, and you want t
 
 You can test that the `t1` and `t2` vector are exactly the same. Both vector starts from zero and ends at 1.9. Having the time vector we can generate a sinusoid signal with a frequency of 1Hz. This will result 2 periods in the signal:
 
-<div class="gist" data-gist-id="ec5c237f47cdee3c7794" data-gist-hide-footer="true"></div>
+```
+s = sin(2*pi*1*t1);
+```
 
 If we plot the generated signal, we can see, that it is not a sine signal at all. It is a discrete signal, that has values in discrete points as we expected.
 
-<img src="/images/smart-sinusoids/signal001.png" alt="Discrete vs continous time sine signal" />
+<img src="/images/articles/smart-sinusoids/signal001.png" alt="Discrete vs continous time sine signal" />
 
 This method is one of the 4 main signal generation methods where we link the discrete time signal to the continuous time. Having such a connection between the two domain, the signal can be played back with the computer's _digital to analog converter_.
 
 However. There are other use cases when we don't want to link the __discrete time__ to the __continuous time__, so we don't have to bother with the sampling frequency, and we can generate a time vector from 0 to 1, and pass it to the equation:
 
-<div class="gist" data-gist-id="f7f3d7a521c01022b41d" data-gist-hide-footer="true"></div>
+```
+t = linspace(0,1,100);
+s = sin(2*pi*3*t);
+```
 
 The result will be a 100 sample long sinusoid signal, that contains 3 periods. But be careful. This signal can't be used as the previous one until we specify the sampling frequency.
 
-<img src="/images/smart-sinusoids/signal002.png" alt="100 samples long sinusoid without discrete/continous time lock" />
+<img src="/images/articles/smart-sinusoids/signal002.png" alt="100 samples long sinusoid without discrete/continous time lock" />
 
 As you can see, generating sinusoids with these basic methods isn't hard at all. But you __have to think__ about the method, the formulas and the units. This could be a bit time consuming if you have to think about it every time you want to generate a signal..
 
@@ -48,7 +53,7 @@ As you can see, generating sinusoids with these basic methods isn't hard at all.
 
 There are 9 parameters that a pure sinusoid signal could have. In order to be able to generate any kind of sinusoid signals, you should be familiar with the parameters.
 
-<img src="/images/smart-sinusoids/detailed.png" alt="Sinusoid signal parameters" />
+<img src="/images/articles/smart-sinusoids/detailed.png" alt="Sinusoid signal parameters" />
 
 
 | Parameter name | Unit | Possible parameters   |
@@ -75,7 +80,7 @@ With these parameters there are 5 main generation methods for sinusoid signals. 
 
 Let's try out all methods, to see how you can use them in practice. Let's generate the same 60 samples of sinusoid signal with 2.5 periods in it with the amplitude 1 at an arbitrary sampling frequency:
 
-<img src="/images/smart-sinusoids/demo_signal.png" alt="Reference signal for all the following generation methods" />
+<img src="/images/articles/smart-sinusoids/demo_signal.png" alt="Reference signal for all the following generation methods" />
 
 The used parameters may seem a bit odd for the first time, but due to the constraint of generating the same signal with all the methods, they will be reasonable.
 
