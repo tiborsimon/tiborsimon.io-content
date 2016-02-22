@@ -4,6 +4,7 @@ Date: 2016-02-20
 Summary: Integrating MathJax locally in an iOS app to be able to use mathematical equations stored as LaTEX equations.
 Series: iOS MathJax
 
+
 In this article I am going to show you a method to integrate [MathJax](https://www.mathjax.org) - _an external javascript display engine for mathematics_ - in an iOS app. I used the following components:
 
 | Component | Version |
@@ -11,6 +12,7 @@ In this article I am going to show you a method to integrate [MathJax](https://w
 | XCode | Version 7.2.1 (7C1002) |
 | iOS   | 9.2                    |
 | MathJax | 2.6.1                |
+
 
 ## Prerequisite
 
@@ -44,17 +46,16 @@ The equivalent __LaTEX__ representation is:
 2^{\frac{2}{\sqrt{6}}}
 ```
 
-To use LaTEX, an display engine is needed to
+To be able to use LaTEX, a third party engine is needed to produce renderable html from it. I chose [MathJax](https://www.mathjax.org) for this purpose.
 
+## Downloading the external
 
+## Credits
 
-
-
-
-
-
-http://new2objectivec.blogspot.rs/2013/03/mathjax-v21-works-beautifully-on-ios-61.html?m=1
-http://new2objectivec.blogspot.rs/2012/03/tutorial-how-to-setup-mathjax-locally.html
-http://docs.mathjax.org/en/latest/start.html
-http://stackoverflow.com/a/2660496
-http://stackoverflow.com/a/747644
+| For this project I used the following articles and answers as guides and solutions for problems.  |
+|:-----:|
+| [Link](http://new2objectivec.blogspot.rs/2013/03/mathjax-v21-works-beautifully-on-ios-61.html?m=1) |
+| [Link](http://new2objectivec.blogspot.rs/2012/03/tutorial-how-to-setup-mathjax-locally.html) |
+| [Link](http://docs.mathjax.org/en/latest/start.html) |
+| [Link](http://stackoverflow.com/a/2660496) |
+| [Link](http://stackoverflow.com/a/747644) |
