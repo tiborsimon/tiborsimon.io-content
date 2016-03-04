@@ -4,14 +4,16 @@ repo_link: https://github.com/tiborsimon/slotcar-race
 version: v1.0
 Date: 2015-01-15
 Summary: At the university me and my partner have faced a midterm project that contained a very interesting problem. We had to write an algorithm that drives a small electric car on it’s guided track.
+Repo: https://github.com/tiborsimon/slotcar-race
+Release_link: https://github.com/tiborsimon/slotcar-race/releases/latest
 
 
 The only information we had was the acceleration data comes from the car itself. Based on this information we had to control the voltage of the car’s motor to run the fastest lap on the track. It doesn’t sounds too hard, does it.
 
-<figure class="half">
-    <img src="/images/articles/slotcar/promo1.jpg" alt="">
-    <img src="/images/articles/slotcar/promo2.jpg" alt="">
-</figure>
+<div class="gallery">
+    <img class="jslghtbx-thmb" src="/images/articles/slotcar/promo1.jpg" alt="Small slot car that has to be driven autonomously." data-jslghtbx data-jslghtbx-caption="The slot car we have to program." data-jslghtbx-group="slotcar-group-1" />
+    <img class="jslghtbx-thmb" src="/images/articles/slotcar/promo2.jpg" alt="The track the slot car has to run." data-jslghtbx data-jslghtbx-caption="The track the slot car has to run." data-jslghtbx-group="slotcar-group-1" />
+</div>
 
 # About the competition
 
@@ -28,7 +30,7 @@ The rules of the competition
 The track was a casual slot car track with two corners and a cross over section. The power for the car comes from the two pair of rails. There is a room for two cars on the track at once.
 
 <figure>
-    <img src="/images/articles/slotcar/track.jpg" width="400" alt="">
+    <img src="/images/articles/slotcar/track.jpg" width="400" alt="The track.">
 </figure>
 
 # The car
@@ -36,7 +38,7 @@ The track was a casual slot car track with two corners and a cross over section.
 Audi R8 body with an embedded Freescale processor in it. In between the front wheels there is a guider with the brushes to collect the electricity from the rails. There are two IO interface on the car: the mini USB connector for programming and a mini SD card slot to get the accelerometer data for developing. One car had a led on the top of it that we could use for debugging the algorithm.
 
 <figure>
-    <img src="/images/articles/slotcar/car.jpg" width="400" alt="">
+    <img src="/images/articles/slotcar/car.jpg" width="400" alt="The slot car.">
 </figure>
 
 # Solving the problem
@@ -76,14 +78,14 @@ Right at this moment, the car was switched to state three, in which the algorith
 # Period finder algorithm
 
 <figure>
-    <img src="/images/articles/slotcar/raw-data.png" width="550" alt="">
+    <img src="/images/articles/slotcar/raw-data.png" width="550" alt="Raw accelerometer data">
     <figcaption>Raw accelerometer data</figcaption>
 </figure>
 
 The period finder algorithm is a very simple thus a very specific algorithm that was developed only for this competition. It may work in other situations, but don’t bet your money there :)
 
 <figure>
-    <img src="/images/articles/slotcar/algorithm.png" width="550" alt="">
+    <img src="/images/articles/slotcar/algorithm.png" width="550" alt="lgorithm output signals">
     <figcaption>Algorithm output signals</figcaption>
 </figure>
 
