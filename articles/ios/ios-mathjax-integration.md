@@ -5,7 +5,7 @@ Summary: Integrating MathJax locally in an iOS app to be able to use mathematica
 Series: iOS MathJax
 Repo: https://github.com/tiborsimon/ios-local-mathjax-template
 Release_link: https://github.com/tiborsimon/ios-local-mathjax-template/releases/latest
-Mathjax: true
+
 
 
 In this article I am going to show you a method to integrate [MathJax](https://www.mathjax.org) - _an external javascript display engine for mathematics_ - in an iOS app. I used the following components:

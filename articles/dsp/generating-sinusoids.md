@@ -13,7 +13,7 @@ Mathjax: true
 The equation of a sinusoid signal is a known fact:
 
 <p class="equation">
-  `y(t) = A sin(2 pi f t + varphi) = A sin(omega t + varphi).`
+  $$y(t) = A \sin(2 \pi f t + \varphi) = A \sin(\omega t + \varphi).$$
 </p>
 
 However. This equation is only valid in the __continuous time__ domain, therefore without any modification it is useless in the __discrete time__ domain used by every digital machine. You won't be able to create a continuous variable that spans through the duration of the signal from the beginning to the end while taking up every possible value.
