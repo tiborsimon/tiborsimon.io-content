@@ -1,5 +1,6 @@
 Title: Minimal MathJax package
-Tags: hack, javascript, math, LaTEX
+Tags: MathJax, hack, javascript, math, LaTEX
+Kw: MathJax, local, solution, xcode, ios, hack, javascript, swift, math, LaTEX
 Date: 2016-03-07
 Summary: MathJax is a pretty big javascript package, but you can make it work after you stripped off most of the files. The final package size could be around 623KB.
 Series: iOS MathJax
