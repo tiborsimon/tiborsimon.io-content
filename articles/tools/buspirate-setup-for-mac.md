@@ -1,8 +1,6 @@
 Title: BusPirate setup for OSX
-Subtitle: Use plain terminal and screen to connect your device
 Tags: tools, embedded, device
 Date: 2015-09-13
-Img: img/thumb-449x286-7.jpg
 Summary: As I have switched to mac in the past days, I want to set up my BusPirate to be able to communicate with other circuits.
 
 
