@@ -15,7 +15,7 @@ You can speed up the initial configuration if you have a previously saved config
 
 These files are generally called __dotfiles__, as command line tools often expect their configuration files to start with a dot indicating the file is hidden for normal use. Dotfiles are generally located in the current user's _home_ directory. When you start using a new machine, you simply  copy your saved config files to your home directory and you are home. 
 
-Besides the custom configuration files, you can also save out a list of installable programs and tools that you want to have by default on a machine. Some package manager tools supporst installing from files, but if not, you can write a small script that will install your tools one by one. You can create a `packages.txt` file for this purpose:
+Besides the custom configuration files, you can also save out a list of installable programs and tools that you want to have by default on a machine. Some package manager tools supports installing from files, but if not, you can write a small script that will install your tools one by one. You can create a `packages.txt` file for this purpose:
 
 <div class="code-name">packages.txt</div>
 ```
@@ -38,7 +38,7 @@ for app in $(cat path/to/your/packages.txt); do
 done
 ``` 
 
-You might need to have administrator priviliges to install packages on your machine. You have to replace the path to your _packages.txt_ file and your system's package manager.
+You might need to have administrator privileges to install packages on your machine. You have to replace the path to your _packages.txt_ file and your system's package manager.
 
 ### Conclusion
 
@@ -49,13 +49,13 @@ This method is semi-manual, as you have to copy the files, and run the commands 
 
 # Hosted and versioned configuration
 
-The next improvement step is to put your config files in a version control system, and host it on the internet. If you want a public configuration, you can't find better place than __GitHub__. However, if you want your config to be in a private place, I can suggest using __BitBucket__, as it offers free private repositories. Eighter versioning provider you choose, you will end up having an easy-to-deploy config system. You can clone your setup on a new machine, and you will have your setup ready to use.
+The next improvement step is to put your config files in a version control system, and host it on the internet. If you want a public configuration, you can't find better place than __GitHub__. However, if you want your config to be in a private place, I can suggest using __BitBucket__, as it offers free private repositories. Eihter versioning provider you choose, you will end up having an easy-to-deploy config system. You can clone your setup on a new machine, and you will have your setup ready to use.
 
 There is only one problem with this approach. If you clone your repository into your home directory, then your entire home directory will became a repository, but this is probably not what you want. You can solve this issue by cloning your repo into a separate directory, and then symlink your dotfiles into the expected place.
 
 This is the exact method I use for my dotfile system. I clone my dotfiles repository into the `~/.dotfiles` directory, and then I run my deploy script, that will symlink the dotfiles one-by-one into their dedicated place. Then I only have to modify the dotfiles located in the `~/dotfiles` directory, and my changes automatically appear in place.
 
-For deployment script, I use [Zach Holman's dotfiles](https://github.com/holman/dotfiles) project that has a separated scructure that I further customized to meet my needs.
+For deployment script, I use [Zach Holman's dotfiles](https://github.com/holman/dotfiles) project that has a separated structure that I further customized to meet my needs.
 
 ### Conclusion
 
