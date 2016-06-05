@@ -4,7 +4,7 @@
         "category": ["video"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/clouds-are-coming-cover-n.jpg",
+            "url": "images/portfolios/clouds-are-coming-cover.jpg",
             "alt": "Clouds are coming cover photo"
         },
         "link": "https://vimeo.com/26811398",
@@ -16,7 +16,7 @@
         "category": ["video"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/cold-front-cover-n.jpg",
+            "url": "images/portfolios/cold-front-cover.jpg",
             "alt": "Cold Front cover photo"
         },
         "link": "https://vimeo.com/30624186",
@@ -28,7 +28,7 @@
         "category": ["programming"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/java-shooter-game-cover-n.jpg",
+            "url": "images/portfolios/java-shooter-game-cover.jpg",
             "alt": "Java shooter game cover photo"
         },
         "link": "https://github.com/tiborsimon/java-shooter-game",
@@ -40,7 +40,7 @@
         "category": ["music", "video"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/lovesong-cover-n.jpg",
+            "url": "images/portfolios/lovesong-cover.jpg",
             "alt": "Lovesong cover photo"
         },
         "link": "https://www.youtube.com/watch?v=qINOQfeV8o8",
@@ -52,7 +52,7 @@
         "category": ["music"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/madagascar-cover-n.jpg",
+            "url": "images/portfolios/madagascar-cover.jpg",
             "alt": "Madagascar loop cover photo"
         },
         "link": "https://www.youtube.com/watch?v=XiYXvfuqvFw",
@@ -72,7 +72,7 @@
         "category": ["video"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/milky-way-cover-n.jpg",
+            "url": "images/portfolios/milky-way-cover.jpg",
             "alt": "Milky Way cover photo"
         },
         "link": "https://vimeo.com/31025344",
@@ -84,7 +84,7 @@
         "category": ["music"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/modern-love-cover-n.jpg",
+            "url": "images/portfolios/modern-love-cover.jpg",
             "alt": "Modern love cover photo"
         },
         "link": "https://www.youtube.com/watch?v=lxrcqMAhclI",
@@ -96,7 +96,7 @@
         "category": ["music"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/mustang-test-cover-n.jpg",
+            "url": "images/portfolios/mustang-test-cover.jpg",
             "alt": "Mustang test cover photo"
         },
         "link": "https://soundcloud.com/tiborsimon/mustang-test",
@@ -113,10 +113,10 @@
     },
     {
         "title": "Slotcar race",
-        "category": ["electronics"],
+        "category": ["electronics", "dsp"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/slotcar-race-cover-n.jpg",
+            "url": "images/portfolios/slotcar-race-cover.jpg",
             "alt": "Slotcar race cover photo"
         },
         "link": "https://www.youtube.com/watch?v=Aj9IzfBdFBo",
@@ -128,7 +128,7 @@
         "category": ["dsp"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/smart-sinusoids-cover-n.jpg",
+            "url": "images/portfolios/smart-sinusoids-cover.jpg",
             "alt": "Smart Sinusoids cover photo"
         },
         "link": "https://github.com/tiborsimon/smart-sinusoids",
@@ -140,7 +140,7 @@
         "category": ["video"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/starry-night-cover-n.jpg",
+            "url": "images/portfolios/starry-night-cover.jpg",
             "alt": "Starry Night cover photo"
         },
         "link": "https://vimeo.com/47858395",
@@ -152,7 +152,7 @@
         "category": ["music"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/this-is-the-life-cover-n.jpg",
+            "url": "images/portfolios/this-is-the-life-cover.jpg",
             "alt": "This is the life cover photo"
         },
         "link": "https://www.youtube.com/watch?v=y00qwAemOj8",
@@ -164,7 +164,7 @@
         "category": ["video"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/zikkurat-cover-n.jpg",
+            "url": "images/portfolios/zikkurat-cover.jpg",
             "alt": "Zikkurat cover photo"
         },
         "link": "https://www.youtube.com/watch?v=BbZDeATeR7c",
