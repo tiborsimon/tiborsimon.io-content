@@ -1,23 +1,65 @@
 [
     {
-        "title": "Clouds are coming",
+        "title": "Lightnings",
+        "category": ["photography"],
+        "type": "image",
+        "thumbnail": {
+            "url": "images/portfolios/lightnings-cover.jpg"
+        },
+        "link": "https://github.com/tiborsimon/projects",
+        "date": "2011-08-14",
+        "content": "Lightning photograpy at night."
+    },
+    {
+        "title": "projects",
+        "category": ["programming"],
+        "type": "link",
+        "thumbnail": {
+            "url": "images/portfolios/projects-cover.jpg"
+        },
+        "link": "https://github.com/tiborsimon/projects",
+        "date": "2016-07-07",
+        "content": "intuitive project management and recursive scripting engine."
+    },
+    {
+        "title": "led chaser",
+        "category": ["electronics"],
+        "type": "link",
+        "thumbnail": {
+            "url": "images/portfolios/led-chaser-cover.jpg"
+        },
+        "link": "https://github.com/tiborsimon/led-chaser",
+        "date": "2010-07-2",
+        "content": "avr based tiny led animation player written in assembly. flash based editor included."
+    },
+    {
+        "title": "dsp controller",
+        "category": ["electronics"],
+        "type": "link",
+        "thumbnail": {
+            "url": "images/portfolios/dsp-controller-cover.jpg"
+        },
+        "link": "https://github.com/tiborsimon/dspcontroller-bundle",
+        "date": "2014-01-16",
+        "content": "avr based human interface device for the analog devices sharc dsp evaluation board."
+    },
+    {
+        "title": "clouds are coming",
         "category": ["video"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/clouds-are-coming-cover.jpg",
-            "alt": "Clouds are coming cover photo"
+            "url": "images/portfolios/clouds-are-coming-cover.jpg"
         },
         "link": "https://vimeo.com/26811398",
         "date": "2011-06-23",
-        "content": "Time lapse video of clouds coming from northwest."
+        "content": "time lapse video of clouds coming from northwest."
     },
     {
-        "title": "Cold Front",
+        "title": "cold front",
         "category": ["video"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/cold-front-cover.jpg",
-            "alt": "Cold Front cover photo"
+            "url": "images/portfolios/cold-front-cover.jpg"
         },
         "link": "https://vimeo.com/30624186",
         "date": "2011-10-16",
@@ -28,8 +70,7 @@
         "category": ["programming"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/java-shooter-game-cover.jpg",
-            "alt": "Java shooter game cover photo"
+            "url": "images/portfolios/java-shooter-game-cover.jpg"
         },
         "link": "https://github.com/tiborsimon/java-shooter-game",
         "date": "2013-08-19",
@@ -40,8 +81,7 @@
         "category": ["music", "video"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/lovesong-cover.jpg",
-            "alt": "Lovesong cover photo"
+            "url": "images/portfolios/lovesong-cover.jpg"
         },
         "link": "https://www.youtube.com/watch?v=qINOQfeV8o8",
         "date": "2012-09-30",
@@ -52,8 +92,7 @@
         "category": ["music"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/madagascar-cover.jpg",
-            "alt": "Madagascar loop cover photo"
+            "url": "images/portfolios/madagascar-cover.jpg"
         },
         "link": "https://www.youtube.com/watch?v=XiYXvfuqvFw",
         "date": "2013-02-26",
@@ -63,6 +102,9 @@
         "title": "MATLAB Library System",
         "category": ["programming"],
         "type": "video",
+        "thumbnail": {
+            "url": "images/portfolios/matlab-library-system-cover.jpg"
+        },
         "link": "https://github.com/tiborsimon/matlab-library-system",
         "date": "2015-11-03",
         "content": "Library handler that provides modularity and easy shipment for your projects and packages."
@@ -72,8 +114,7 @@
         "category": ["video"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/milky-way-cover.jpg",
-            "alt": "Milky Way cover photo"
+            "url": "images/portfolios/milky-way-cover.jpg"
         },
         "link": "https://vimeo.com/31025344",
         "date": "2011-10-24",
@@ -84,8 +125,7 @@
         "category": ["music"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/modern-love-cover.jpg",
-            "alt": "Modern love cover photo"
+            "url": "images/portfolios/modern-love-cover.jpg"
         },
         "link": "https://www.youtube.com/watch?v=lxrcqMAhclI",
         "date": "2012-09-14",
@@ -96,8 +136,7 @@
         "category": ["music"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/mustang-test-cover.jpg",
-            "alt": "Mustang test cover photo"
+            "url": "images/portfolios/mustang-test-cover.jpg"
         },
         "link": "https://soundcloud.com/tiborsimon/mustang-test",
         "date": "2012-12-01",
@@ -107,6 +146,9 @@
         "title": "Simple Input Parser",
         "category": ["programming"],
         "type": "video",
+        "thumbnail": {
+            "url": "images/portfolios/simple-input-parser-cover.jpg"
+        },
         "link": "https://github.com/tiborsimon/simple-input-parser",
         "date": "2015-10-13",
         "content": "Easy to use input parser for functions and methods that are using variable-length input argument list."
@@ -116,8 +158,7 @@
         "category": ["electronics", "dsp"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/slotcar-race-cover.jpg",
-            "alt": "Slotcar race cover photo"
+            "url": "images/portfolios/slotcar-race-cover.jpg"
         },
         "link": "https://www.youtube.com/watch?v=Aj9IzfBdFBo",
         "date": "2013-08-19",
@@ -128,8 +169,7 @@
         "category": ["dsp"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/smart-sinusoids-cover.jpg",
-            "alt": "Smart Sinusoids cover photo"
+            "url": "images/portfolios/smart-sinusoids-cover.jpg"
         },
         "link": "https://github.com/tiborsimon/smart-sinusoids",
         "date": "2015-10-20",
@@ -140,8 +180,7 @@
         "category": ["video"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/starry-night-cover.jpg",
-            "alt": "Starry Night cover photo"
+            "url": "images/portfolios/starry-night-cover.jpg"
         },
         "link": "https://vimeo.com/47858395",
         "date": "2012-08-20",
@@ -152,8 +191,7 @@
         "category": ["music"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/this-is-the-life-cover.jpg",
-            "alt": "This is the life cover photo"
+            "url": "images/portfolios/this-is-the-life-cover.jpg"
         },
         "link": "https://www.youtube.com/watch?v=y00qwAemOj8",
         "date": "2012-08-23",
@@ -164,8 +202,7 @@
         "category": ["video"],
         "type": "video",
         "thumbnail": {
-            "url": "images/portfolios/zikkurat-cover.jpg",
-            "alt": "Zikkurat cover photo"
+            "url": "images/portfolios/zikkurat-cover.jpg"
         },
         "link": "https://www.youtube.com/watch?v=BbZDeATeR7c",
         "date": "2013-03-11",
