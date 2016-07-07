@@ -101,7 +101,7 @@
     {
         "title": "MATLAB Library System",
         "category": ["programming"],
-        "type": "video",
+        "type": "link",
         "thumbnail": {
             "url": "images/portfolios/matlab-library-system-cover.jpg"
         },
@@ -145,7 +145,7 @@
     {
         "title": "Simple Input Parser",
         "category": ["programming"],
-        "type": "video",
+        "type": "link",
         "thumbnail": {
             "url": "images/portfolios/simple-input-parser-cover.jpg"
         },
@@ -167,7 +167,7 @@
     {
         "title": "Smart Sinusoids",
         "category": ["dsp"],
-        "type": "video",
+        "type": "link",
         "thumbnail": {
             "url": "images/portfolios/smart-sinusoids-cover.jpg"
         },
